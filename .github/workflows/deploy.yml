@@ -34,11 +34,9 @@ jobs:
       - name: Build
         run: pnpm run build
 
-      - name: Deploy via Hook
-        env:
-          CF_DEPLOY_HOOK_URL: https://api.cloudflare.com/client/v4/workers/builds/deploy_hooks/cf6243b0-59b1-4460-84ac-4b8cd5679b63
-          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
-        run: |
-          curl -sf -X POST "$CF_DEPLOY_HOOK_URL" \
-            -H "Authorization: Bearer $CF_API_TOKEN" \
-            -H "Content-Type: application/json"
+      - name: Deploy to Cloudflare Workers
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CF_API_TOKEN }}
+          accountId: ${{ secrets.CF_ACCOUNT_ID }}
+          command: pages deploy dist --project-name=my-blog
