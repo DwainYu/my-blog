@@ -1,11 +1,9 @@
 ---
 title: '我是如何用 Astro + Cloudflare 搭建这个博客的'
 description: '从零开始搭建一个免费、自动化、现代化的个人技术博客的全过程记录。'
-pubDate: '2026-06-19'
-updatedDate: '2026-06-19'
+pubDatetime: 2026-06-19T16:30:00.000+08:00
 tags: ['Astro', 'Cloudflare', '博客搭建', '教程']
 draft: false
-image: ''
 ---
 
 这是我搭建个人博客的全过程记录。
