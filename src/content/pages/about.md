@@ -9,7 +9,7 @@ seo:
 
 # About
 
-Hi, I'm **DwainYu**.
+Hi, I'm **Playmaker**.
 
 A 23-year-old developer from China, learning AI application development.
 

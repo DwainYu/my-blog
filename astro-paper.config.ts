@@ -3,9 +3,9 @@ import { defineAstroPaperConfig } from "./src/types/config";
 export default defineAstroPaperConfig({
   site: {
     url: "https://my-blog.pages.dev/",
-    title: "DwainYu's Blog",
+    title: "Playmaker's Blog",
     description: "一个正在成长的 AI 应用开发者的技术博客。记录 FastAPI、RAG、TFT 大数据等项目实践。",
-    author: "DwainYu",
+    author: "Playmaker",
     profile: "https://github.com/DwainYu",
     ogImage: "default-og.jpg",
     lang: "en",
@@ -24,13 +24,14 @@ export default defineAstroPaperConfig({
     showBackButton: true,
     editPost: {
       enabled: true,
-      url: "https://github.com/DwainYu/my-blog/edit/main/",
+      url: "https://github.com/Playmaker-ai/my-blog/edit/main/",
     },
     search: "pagefind",
   },
   socials: [
     { name: "github",   url: "https://github.com/DwainYu" },
-    { name: "mail",     url: "mailto:dwanyu@example.com" },
+    { name: "mail",     url: "mailto:playmaker_ai@qq.com" },
+    { name: "xiaohongshu", url: "https://www.xiaohongshu.com/user/profile/60c322a50000000001002d5a" },
   ],
   shareLinks: [
     { name: "twitter",  url: "https://twitter.com/intent/post?url=" },

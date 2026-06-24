@@ -1,8 +1,12 @@
 ---
-title: 'AstroPaper 博客配置完全指南：从基本信息到个人展示页'
-description: '手把手教你配置 AstroPaper 博客的站点信息、社交链接、About 页面、配色方案等，打造属于自己的技术博客。'
+title: AstroPaper 博客配置完全指南：从基本信息到个人展示页
+description: 手把手教你配置 AstroPaper 博客的站点信息、社交链接、About 页面、配色方案等，打造属于自己的技术博客。
 pubDatetime: 2026-06-23T14:00:00.000+08:00
-tags: ['Astro', 'AstroPaper', '博客配置', '教程']
+tags:
+  - Astro
+  - AstroPaper
+  - 博客配置
+  - 教程
 draft: false
 ---
 
@@ -21,16 +25,16 @@ export default defineAstroPaperConfig({
     url: "https://placeholder.workers.dev/",
     
     // 站点标题（显示在浏览器标签和页面头部）
-    title: "DwainYu's Blog",
+    title: "Playmaker's Blog",
     
     // 站点描述（SEO 用，出现在搜索结果摘要中）
     description: "一个正在成长的 AI 应用开发者的技术博客。",
     
     // 作者名
-    author: "DwainYu",
+    author: "Playmaker",
     
     // 作者主页链接
-    profile: "https://github.com/DwainYu",
+    profile: "https://github.com/Playmaker-ai",
     
     // 封面图（放在 public/ 目录下）
     ogImage: "default-og.jpg",
@@ -53,10 +57,10 @@ export default defineAstroPaperConfig({
 
 ```typescript
   socials: [
-    { name: "github",   url: "https://github.com/DwainYu" },
+    { name: "github",   url: "https://github.com/Playmaker-ai" },
     { name: "mail",     url: "mailto:dwanyu@example.com" },
-    { name: "twitter",  url: "https://twitter.com/DwainYu" },
-    { name: "linkedin", url: "https://linkedin.com/in/DwainYu" },
+    { name: "twitter",  url: "https://twitter.com/Playmaker_ai" },
+    { name: "linkedin", url: "https://linkedin.com/in/Playmaker-ai" },
   ],
 ```
 
@@ -95,7 +99,7 @@ export default defineAstroPaperConfig({
     // 允许编辑文章（跳转到 GitHub 编辑页面）
     editPost: {
       enabled: true,
-      url: "https://github.com/DwainYu/my-blog/edit/main/",
+      url: "https://github.com/Playmaker-ai/my-blog/edit/main/",
     },
     
     // 搜索方式：pagefind（客户端全文搜索）
@@ -141,7 +145,7 @@ seo:
 
 # About Me
 
-Hi, I'm **DwainYu**.
+Hi, I'm **Playmaker**.
 
 ## Who Am I
 
