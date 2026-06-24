@@ -1,7 +1,7 @@
 ---
 title: 'About'
 description: 'About this blog.'
-pubDate: '2026-06-19'
+pubDate: '2026-06-24'
 draft: false
 seo:
   image: {}
@@ -20,8 +20,17 @@ A 23-year-old developer from China, learning AI application development.
 - **TFT** (Teamfight Tactics) data analysis with AI
 - **Cloudflare** ecosystem
 
+## Connect With Me
+
+- 🐙 [GitHub](https://github.com/DwainYu)
+- 📧 playmaker_ai@qq.com / davidlloyd6367@gmail.com
+- 📺 [Bilibili](https://space.bilibili.com/455325686)
+- 📕 小红书扫码关注
+
+![小红书二维码](/xiaohongshu-qr.png)
+
 ## This Blog
 
-Built with [AstroPaper](https://github.com/satnaing/astro-paper) + [Cloudflare Pages](https://pages.cloudflare.com/).
+Built with [AstroPaper](https://github.com/satnaing/astro-paper) + [Cloudflare Workers](https://workers.cloudflare.com/).
 
-First post: [How I Built This Blog](/posts/how-i-built-this-blog-with-astro-and-cloudflare)
+First post: [AstroPaper 博客配置完全指南](/posts/astro-paper-blog-configuration-guide)
